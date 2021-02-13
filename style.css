@@ -305,11 +305,52 @@ footer {
   font-size: 0.8rem;
 }
 
+/*********************** ABOUT PAGE ***********************************/
+.main-about {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fdfcff;
+  flex-wrap: wrap;
+}
+
+.about-info {
+  margin: 3rem;
+  color: #152238;
+  max-width: 40%;
+}
+
+.about-info h2 {
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+}
+.about-info p {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.about-image {
+  max-width: 40%;
+  height: auto;
+  margin: 3rem;
+}
+
 /************************************ MEDIA QUERIES ********************************/
 
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
+  }
+
+  /*** about page mobile responsive code**/
+  .about-image {
+    max-width: 100%;
+  }
+
+  .about-info {
+    max-width: 100%;
   }
 }
 
