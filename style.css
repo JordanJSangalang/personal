@@ -293,7 +293,6 @@ nav {
 
 footer {
   background-color: #152238;
-  bottom: 0;
 }
 .copyright {
   display: flex;
@@ -336,6 +335,59 @@ footer {
   max-width: 40%;
   height: auto;
   margin: 3rem;
+}
+/********************** CONTACT PAGE *********************************************/
+.main-contact {
+  display: flex;
+}
+
+.main-contact form {
+  color: #152238;
+  display: grid;
+  width: 60%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#name-label {
+  grid-column: 1;
+  grid-row: 1;
+  background: red;
+}
+
+#name {
+  grid-column: 1;
+  grid-row: 2;
+  background: blue;
+}
+
+#mail-label {
+  grid-column: 2;
+  grid-row: 1;
+  background: pink;
+}
+
+#mail {
+  grid-column: 2;
+  grid-row: 2;
+  background: darkblue;
+}
+
+#message-label {
+  grid-column: 1/3;
+  grid-row: 3;
+  background: salmon;
+}
+
+#msg {
+  grid-column: 1/3;
+  grid-row: 4;
+  background: lightblue;
+}
+
+#msg-btn {
+  grid-column: 1;
+  grid-row: 5;
 }
 
 /************************************ MEDIA QUERIES ********************************/

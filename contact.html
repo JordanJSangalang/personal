@@ -34,34 +34,16 @@
 
     <section class="main-contact">
       <form action="https://formspree.io/f/mqkgoavw" method="POST">
-        <label for="name">Name:</label>
+        <label for="name" id="name-label">Name:</label>
         <input type="text" id="name" name="user_name" />
-        <label for="mail">E-mail:</label>
+        <label for="mail" id="mail-label">E-mail:</label>
         <input type="email" id="mail" name="user_mail" />
-        <label for="msg">Message:</label>
+        <label for="msg" id="message-label">Message:</label>
         <textarea id="msg" name="user_message"></textarea>
-        <button type="submit">Send your message</button>
+        <button id="msg-btn" class="btn" type="submit">Say Hi</button>
       </form>
     </section>
-    <section class="contact-section">
-      <h3>Contact Me</h3>
-      <div class="contact-info">
-        <img class="phone icon" src="phone-icon.svg" alt="phone icon" />
-        <p class="phone-number">(317) 410-2295</p>
-      </div>
-      <div class="contact-info">
-        <img class="email icon" src="email-icon.svg" alt="email icon" />
-        <p class="email">jordanjsangalang@gmail.com</p>
-      </div>
-      <div class="contact-info">
-        <img
-          class="linkedin icon"
-          src="linkedin-icon.svg"
-          alt="linkedin icon"
-        />
-        <p class="email">linkedin.com/in/jordanjsangalang</p>
-      </div>
-    </section>
+
     <footer>
       <div class="copyright">
         <p>Copyright &copy; Jordan Sangalang 2021</p>
