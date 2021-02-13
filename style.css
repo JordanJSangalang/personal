@@ -293,6 +293,7 @@ nav {
 
 footer {
   background-color: #152238;
+  bottom: 0;
 }
 .copyright {
   display: flex;
