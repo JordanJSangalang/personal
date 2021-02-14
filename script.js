@@ -1,34 +1,35 @@
-// function navSlide() {
-//   const burger = document.querySelector(".burger");
-//   const nav = document.querySelector(".nav-links");
-//   const navLinks = document.querySelectorAll(".nav-links li");
+/****************** Navbar logic ***************/
+function navSlide() {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links li");
 
-//   burger.addEventListener("click", () => {
-//     //Toggle Nav
-//     nav.classList.toggle("nav-active");
+  burger.addEventListener("click", () => {
+    //Toggle Nav
+    nav.classList.toggle("nav-active");
 
-//     //Animate Links
-//     navLinks.forEach((link, index) => {
-//       if (link.style.animation) {
-//         link.style.animation = "";
-//       } else {
-//         link.style.animation = `navLinkFade 0.5s ease forwards ${
-//           index / 7 + 0.5
-//         }s`;
-//       }
-//     });
-//     //Burger Animation
-//     burger.classList.toggle("toggle");
-//   });
-// }
+    //Animate Links
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 7 + 0.5
+        }s`;
+      }
+    });
+    //Burger Animation
+    burger.classList.toggle("toggle");
+  });
+}
 
-// navSlide();
+navSlide();
 
 //****************index.html
 
 //resume button
 document.getElementById("resumeButton").addEventListener("click", () => {
-  window.open("Jordan_Sangalang.pdf", "fullscrree=yes");
+  window.open("Jordan_Sangalang.pdf", "fullscreen=yes");
 });
 
 // main cotact button
