@@ -29,7 +29,7 @@ nav {
 }
 
 .last-name {
-  color: #fdfcff;
+  color: #fefefe;
 }
 .nav-links {
   display: flex;
@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-links a {
-  color: #fdfcff;
+  color: #fefefe;
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 14px;
@@ -133,7 +133,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: #e2e2e2;
+  background-color: #fefefe;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -170,7 +170,7 @@ nav {
 }
 
 .experience-section {
-  background: #fdfcff;
+  background-color: #fefefe;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -195,7 +195,7 @@ nav {
   grid-template-areas: "title" "text" "stats";
 
   border-radius: 18px;
-  background: #fdfcff;
+  background-color: #fefefe;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 20px;
@@ -203,7 +203,7 @@ nav {
 
 .card-title {
   grid-area: title;
-  background: #ffc602;
+  background: #152238;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -213,13 +213,14 @@ nav {
 }
 
 .card-title h4 {
-  color: #152238;
+  color: #fefefe;
   font-size: 1.2rem;
   margin: 0.1rem;
 }
 
 .card-title p {
   display: block;
+  color: #fefefe;
 }
 .card-text {
   grid-area: text;
@@ -261,7 +262,7 @@ nav {
 }
 
 .contact-section {
-  background: #fdfcff;
+  background-color: #152238;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -271,7 +272,7 @@ nav {
 .contact-section h3 {
   font-size: 2rem;
   margin-bottom: 3rem;
-  color: #152238;
+  color: #fefefe;
 }
 .contact-info {
   display: flex;
@@ -281,7 +282,7 @@ nav {
 }
 
 .contact-info p {
-  color: #152238;
+  color: #fefefe;
   font-size: 1.2rem;
 }
 
@@ -302,7 +303,7 @@ footer {
 .copyright p {
   color: #fdfcff;
   margin: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /*********************** ABOUT PAGE ***********************************/
@@ -311,7 +312,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fdfcff;
+  background-color: #fefefe;
   flex-wrap: wrap;
 }
 
@@ -343,10 +344,12 @@ footer {
   align-items: center;
   flex-direction: column;
   min-height: 90.1vh;
+  background-color: #fefefe;
 }
 .main-contact h3 {
   font-size: 3rem;
   margin: 3rem 2rem 0rem 2rem;
+  color: #152238;
 }
 
 .main-contact form {
@@ -356,12 +359,13 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3rem 3rem 3rem 5fr 3rem;
   margin: 3rem;
+  background-color: #fefefe;
 }
 
 #name-label {
   grid-column: 1;
   grid-row: 1;
-
+  font-size: 1.2rem;
   align-self: center;
 }
 
@@ -371,12 +375,14 @@ footer {
   margin-right: 1rem;
   padding: 1rem;
   font-size: 1rem;
+  border: 1px solid #152238;
+  background-color: #fefefe;
 }
 
 #mail-label {
   grid-column: 2;
   grid-row: 1;
-
+  font-size: 1.2rem;
   align-self: center;
 }
 
@@ -385,24 +391,28 @@ footer {
   grid-row: 2;
   padding: 1rem;
   font-size: 1rem;
+  border: 1px solid #152238;
+  background-color: #fefefe;
 }
 
 #message-label {
   grid-column: 1/3;
   grid-row: 3;
-
+  font-size: 1.2rem;
   align-self: center;
 }
 
 #msg {
   grid-column: 1/3;
   grid-row: 4;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   max-width: 100%;
   min-width: 100%;
   min-height: 10rem;
   padding: 1rem;
   font-size: 1rem;
+  border: 1px solid #152238;
+  background-color: #fefefe;
 }
 
 #msg-btn {
@@ -411,8 +421,8 @@ footer {
   margin: 0;
   background-color: #152238;
   color: #fdfcff;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  transition: color 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out, color 250ms ease-in-out,
+    transform 150ms ease;
 }
 
 #msg-btn:hover {
@@ -497,60 +507,22 @@ footer {
   .card {
     grid-template-columns: 95vw;
   }
-  .contact-section {
-    background: #fdfcff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 6rem 0rem 6rem 0rem;
-  }
-  .contact-section h3 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    color: #152238;
-  }
-  .contact-info {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-info p {
-    color: #152238;
-    font-size: 1.2rem;
-    text-align: left;
-  }
-
-  .icon {
-    height: auto;
-    width: 2rem;
-    margin: 0.5rem;
-  }
 
   /***** contact page **/
 
   .main-contact form {
-    color: #152238;
-    display: grid;
-    width: 90%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3rem 3rem 3rem 3rem 3rem 5fr 3rem;
-    margin: 3rem;
   }
 
   #name-label {
     grid-row: 1;
     grid-column: 1;
-
-    align-self: center;
   }
 
   #name {
     grid-row: 2;
-    padding: 1rem;
-    font-size: 1rem;
+
     grid-column: 1/3;
     margin: 0;
   }
@@ -558,47 +530,28 @@ footer {
   #mail-label {
     grid-row: 3;
     grid-column: 1;
-    align-self: center;
   }
 
   #mail {
     grid-row: 4;
-    padding: 1rem;
-    font-size: 1rem;
+
     grid-column: 1/3;
   }
 
   #message-label {
     grid-row: 5;
     grid-column: 1;
-    align-self: center;
   }
 
   #msg {
-    grid-column: 1/2;
     grid-row: 6;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 10rem;
-    padding: 1rem;
-    font-size: 1rem;
+
     grid-column: 1/3;
   }
 
   #msg-btn {
     grid-column: 1/3;
     grid-row: 7;
-    margin: 0;
-    background-color: #152238;
-    color: #fdfcff;
-    transition: background 250ms ease-in-out, transform 150ms ease;
-    transition: color 250ms ease-in-out, transform 150ms ease;
-  }
-
-  #msg-btn:hover {
-    background-color: #ffc602;
-    color: #152238;
   }
 }
 
