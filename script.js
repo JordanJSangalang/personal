@@ -24,21 +24,25 @@
 
 // navSlide();
 
-//index.html
+//****************index.html
 
-const contactButton = document.querySelector("#contactButton");
+//resume button
+document.getElementById("resumeButton").addEventListener("click", () => {
+  window.open("Jordan_Sangalang.pdf", "fullscrree=yes");
+});
 
-contactButton.addEventListener("click", () => {
-  window.location.href = "https://www.google.com/";
+// main cotact button
+document.getElementById("contactButton").addEventListener("click", function () {
+  window.location.href = "contact.html";
 });
 
 //contact page
-const form = document.getElementById("contact-form");
-const nameField = document.getElementById("name");
-const mailField = document.getElementById("mail");
-const msgField = document.getElementById("msg");
-const sendButton = document.getElementById("msg-btn");
+// const form = document.getElementById("contact-form");
+// const nameField = document.getElementById("name");
+// const mailField = document.getElementById("mail");
+// const msgField = document.getElementById("msg");
+// const sendButton = document.getElementById("msg-btn");
 
-sendButton.addEventListener("click", function () {
-  mailField.style.backgroundColor = "red";
-});
+// sendButton.addEventListener("click", function () {
+//   mailField.style.backgroundColor = "red";
+// });

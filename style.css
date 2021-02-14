@@ -528,6 +528,78 @@ footer {
     width: 2rem;
     margin: 0.5rem;
   }
+
+  /***** contact page **/
+
+  .main-contact form {
+    color: #152238;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 3rem 3rem 3rem 3rem 5fr 3rem;
+    margin: 3rem;
+  }
+
+  #name-label {
+    grid-row: 1;
+    grid-column: 1;
+
+    align-self: center;
+  }
+
+  #name {
+    grid-row: 2;
+    padding: 1rem;
+    font-size: 1rem;
+    grid-column: 1/3;
+    margin: 0;
+  }
+
+  #mail-label {
+    grid-row: 3;
+    grid-column: 1;
+    align-self: center;
+  }
+
+  #mail {
+    grid-row: 4;
+    padding: 1rem;
+    font-size: 1rem;
+    grid-column: 1/3;
+  }
+
+  #message-label {
+    grid-row: 5;
+    grid-column: 1;
+    align-self: center;
+  }
+
+  #msg {
+    grid-column: 1/2;
+    grid-row: 6;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+    grid-column: 1/3;
+  }
+
+  #msg-btn {
+    grid-column: 1/3;
+    grid-row: 7;
+    margin: 0;
+    background-color: #152238;
+    color: #fdfcff;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    transition: color 250ms ease-in-out, transform 150ms ease;
+  }
+
+  #msg-btn:hover {
+    background-color: #ffc602;
+    color: #152238;
+  }
 }
 
 .nav-active {
