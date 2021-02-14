@@ -510,6 +510,11 @@ footer {
     grid-template-columns: 95vw;
   }
 
+  /*** about page**********/
+  .about-info h2 {
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
   /***** contact page **/
 
   .main-contact form {
