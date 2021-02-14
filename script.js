@@ -23,3 +23,22 @@
 // }
 
 // navSlide();
+
+//index.html
+
+const contactButton = document.querySelector("#contactButton");
+
+contactButton.addEventListener("click", () => {
+  window.location.href = "https://www.google.com/";
+});
+
+//contact page
+const form = document.getElementById("contact-form");
+const nameField = document.getElementById("name");
+const mailField = document.getElementById("mail");
+const msgField = document.getElementById("msg");
+const sendButton = document.getElementById("msg-btn");
+
+sendButton.addEventListener("click", function () {
+  mailField.style.backgroundColor = "red";
+});
