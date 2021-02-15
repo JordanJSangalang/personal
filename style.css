@@ -210,7 +210,7 @@ nav {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: centert;
   flex-direction: column;
 }
 
@@ -261,6 +261,7 @@ nav {
   font-size: 1.2rem;
   line-height: 2rem;
   width: 100%;
+  text-align: left;
 }
 
 .contact-section {
