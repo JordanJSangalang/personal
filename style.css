@@ -298,8 +298,8 @@ footer {
 }
 
 .contact-footer {
-  bottom: 0;
-  position: absolute;
+  /* bottom: 0;
+  position: absolute; */
   width: 100%;
 }
 .copyright {
@@ -350,6 +350,7 @@ footer {
 .contact-section-page {
   background-color: #fefefe;
   color: #152238;
+  height: 87.8vh;
 }
 
 .contact-section-page h3 {
