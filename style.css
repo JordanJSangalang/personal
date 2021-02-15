@@ -149,7 +149,7 @@ nav {
   padding: 6rem 0rem 6rem 0rem;
 }
 .skills-section h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
   color: #152238;
 }
@@ -180,7 +180,7 @@ nav {
   padding: 6rem 0rem 6rem 0rem;
 }
 .experience-section h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
   color: #152238;
 }
@@ -217,7 +217,7 @@ nav {
 .card-title h4 {
   color: #fefefe;
   font-size: 1.2rem;
-  margin: 0.1rem;
+  margin: 0.5rem;
 }
 
 .card-title p {
