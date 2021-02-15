@@ -284,12 +284,13 @@ nav {
 .contact-info p {
   color: #fefefe;
   font-size: 1.2rem;
+  margin: 0.5rem;
 }
 
 .icon {
   height: 2em;
   width: auto;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 footer {
@@ -314,6 +315,7 @@ footer {
   align-items: center;
   background-color: #fefefe;
   flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 .about-info {
@@ -330,6 +332,7 @@ footer {
 .about-info p {
   font-size: 1.2rem;
   width: 100%;
+  line-height: 2rem;
 }
 
 .about-image {
@@ -432,9 +435,36 @@ footer {
 
 /************************************ MEDIA QUERIES ********************************/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1135px) {
   .nav-links {
     width: 60%;
+  }
+
+  /* .intro-content {
+    width: 90%;
+  }
+
+  .intro-content h2 {
+    font-size: 3.5rem;
+    width: 100%;
+  } */
+
+  .main {
+    background-color: #fdfcff;
+    background-image: none;
+  }
+  .intro-content {
+    align-items: center;
+  }
+
+  .intro-content h2 {
+    margin: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .intro-content p {
+    margin: 1rem;
+    text-align: center;
   }
 
   /*** about page mobile responsive code**/
@@ -457,6 +487,7 @@ footer {
   }
   .intro-content {
     align-items: center;
+    width: 100%;
   }
 
   .nav-links {
@@ -487,17 +518,6 @@ footer {
   .main {
     justify-content: center;
     text-align: center;
-  }
-  .intro-content {
-    width: 100%;
-  }
-  .intro-content h2 {
-    margin: 1rem;
-    font-size: 2.5rem;
-  }
-
-  .intro-content p {
-    margin: 1rem;
   }
 
   .btn {

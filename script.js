@@ -37,13 +37,22 @@ document.getElementById("contactButton").addEventListener("click", function () {
   window.location.href = "contact.html";
 });
 
-//contact page
-// const form = document.getElementById("contact-form");
-// const nameField = document.getElementById("name");
-// const mailField = document.getElementById("mail");
-// const msgField = document.getElementById("msg");
-// const sendButton = document.getElementById("msg-btn");
+/***********contact page******************/
+const clearFormFields = () => {
+  const nameField = document.getElementById("name");
+  const mailField = document.getElementById("mail");
+  const msgField = document.getElementById("msg");
+  const sendButton = document.getElementById("msg-btn");
 
-// sendButton.addEventListener("click", function () {
-//   mailField.style.backgroundColor = "red";
-// });
+  nameField.value = "";
+  mailField.value = "";
+  msgField.value = "";
+};
+
+// location.reload(clearFormFields());
+
+document.getElementById("msg-btn1").addEventListener("click", function () {
+  setTimeout(function () {
+    clearFormFields();
+  }, 1000);
+});
