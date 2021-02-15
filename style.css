@@ -23,6 +23,7 @@ nav {
   font-size: 1.2rem;
   color: #ffc602;
   cursor: pointer;
+  padding: 1rem;
 }
 .logo h4 {
   display: inline;
@@ -128,6 +129,7 @@ nav {
 
 .burger {
   display: none;
+  padding: 1rem;
 }
 
 .burger div {
