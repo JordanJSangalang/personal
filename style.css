@@ -296,6 +296,12 @@ nav {
 footer {
   background-color: #152238;
 }
+
+.contact-footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 .copyright {
   display: flex;
   justify-content: center;
@@ -303,7 +309,7 @@ footer {
 
 .copyright p {
   color: #fdfcff;
-  margin: 1rem;
+  margin: 1.5rem;
   font-size: 1rem;
 }
 
@@ -341,7 +347,22 @@ footer {
   margin: 3rem;
 }
 /********************** CONTACT PAGE *********************************************/
-.main-contact {
+.contact-section-page {
+  background-color: #fefefe;
+  color: #152238;
+}
+
+.contact-section-page h3 {
+  color: #152238;
+  font-size: 3rem;
+}
+.contact-section-page p {
+  color: #152238;
+  font-size: 1.2rem;
+}
+
+/*** Contact Form removing for now***********
+ .main-contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,7 +384,7 @@ footer {
   grid-template-rows: 3rem 3rem 3rem 5fr 3rem;
   margin: 3rem;
   background-color: #fefefe;
-}
+} *************************************************/
 
 #name-label {
   grid-column: 1;
