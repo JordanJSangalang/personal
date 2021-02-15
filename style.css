@@ -353,7 +353,7 @@ footer {
 .contact-section-page {
   background-color: #fefefe;
   color: #152238;
-  height: 87.8vh;
+  min-height: 87.8vh;
 }
 
 .contact-section-page h3 {
