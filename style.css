@@ -559,7 +559,9 @@ footer {
   .card {
     grid-template-columns: 95vw;
   }
-
+  .contact-info p {
+    font-size: 1rem;
+  }
   /*** about page**********/
   .about-info h2 {
     margin: 2rem 0rem 2rem 0rem;
